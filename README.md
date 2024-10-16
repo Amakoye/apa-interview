@@ -19,4 +19,18 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Code improvements
 
 Below are the things I would do to improve the following code base:
-1: Proper project setup and modularising it further, each folder have a specific role, for instance utils for all my utility funcions, theme for theming engine and setup, components for reusable components accros the application, etc. 2. Proper Error handling and feedback, that is showing loading states and error messages when necessary. 3. Perfomance optimization, with methods including but not limited to Code splitting, memoization and lazy loading
+
+1. **Proper project setup and modularization**:
+
+   - Organize the project into specific folders with clearly defined roles.
+   - Example folder structure:
+     - `utils/`: For utility functions.
+     - `theme/`: For theming engine and setup.
+     - `components/`: For reusable components across the application.
+
+2. **Proper error handling and feedback**:
+
+   - Implement loading states and error messages to improve user experience.
+
+3. **Performance optimization**:
+   - Techniques such as code splitting, memoization, and lazy loading to enhance performance.
